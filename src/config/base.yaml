@@ -1,0 +1,14 @@
+seed: 42
+
+data:
+  root: "data"
+  damaged_dir: "damaged"
+  undamaged_dir: "undamaged"
+  img_size: 224
+
+split:
+  train: 0.70
+  val: 0.15
+  test: 0.15
+  stratify: true
+  save_dir: "outputs/splits"

@@ -1,0 +1,28 @@
+seed: 42
+
+data:
+  img_size: 224
+  train_csv: "outputs/splits/train.csv"
+  val_csv: "outputs/splits/val.csv"
+  test_csv: "outputs/splits/test.csv"
+
+train:
+  epochs: 15
+  batch_size: 32
+  num_workers: 4
+  lr: 0.0003
+  weight_decay: 0.01
+  label_smoothing: 0.0
+  early_stopping_patience: 4
+  monitor: "val_f1"
+
+models:
+  - name: "resnet50"
+    family: "cnn"
+  - name: "efficientnet_b0"
+    family: "cnn"
+  - name: "densenet121"
+    family: "cnn"
+
+output:
+  root: "outputs/runs/cnns"

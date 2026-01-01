@@ -1,0 +1,26 @@
+seed: 42
+
+data:
+  img_size: 224
+  train_csv: "outputs/splits/train.csv"
+  val_csv: "outputs/splits/val.csv"
+  test_csv: "outputs/splits/test.csv"
+
+train:
+  epochs: 15
+  batch_size: 16
+  num_workers: 4
+  lr: 0.0002
+  weight_decay: 0.05
+  label_smoothing: 0.0
+  early_stopping_patience: 4
+  monitor: "val_f1"   # val_f1 veya val_auc
+
+models:
+  - name: "vit_base_patch16_224"
+    family: "transformer"
+  - name: "swin_tiny_patch4_window7_224"
+    family: "transformer"
+
+output:
+  root: "outputs/runs/transformers"

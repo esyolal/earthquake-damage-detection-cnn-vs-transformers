@@ -1,0 +1,64 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ======================
+# Virtual environments
+# ======================
+.venv/
+venv/
+env/
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Jupyter
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Logs & cache
+# ======================
+*.log
+.cache/
+
+# ======================
+# Data & outputs
+# ======================
+data/
+outputs/runs/
+outputs/splits/
+
+# ======================
+# Allow only comparison outputs
+# ======================
+!outputs/comparisons/
+!outputs/comparisons/*.png
+!outputs/comparisons/*.md
+!outputs/comparisons/*.csv
+
+# ======================
+# Misc
+# ======================
+.env

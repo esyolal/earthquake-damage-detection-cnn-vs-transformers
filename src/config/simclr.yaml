@@ -1,0 +1,33 @@
+seed: 42
+
+data:
+  img_size: 224
+  train_csv: "outputs/splits/train.csv"
+  val_csv: "outputs/splits/val.csv"
+  test_csv: "outputs/splits/test.csv"
+
+simclr:
+  epochs: 50
+  batch_size: 32      
+  num_workers: 4
+  lr: 0.0006
+  weight_decay: 0.000001
+  temperature: 0.2
+  projection_dim: 128
+
+
+finetune:
+  epochs: 15
+  batch_size: 32
+  num_workers: 4
+  lr: 0.0002
+  weight_decay: 0.01
+  early_stopping_patience: 4
+  monitor: "val_f1"
+
+models:
+  - name: "swin_tiny_patch4_window7_224"
+    family: "transformer"
+
+output:
+  root: "outputs/runs/simclr"

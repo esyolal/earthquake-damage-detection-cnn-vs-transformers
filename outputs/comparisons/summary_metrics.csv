@@ -1,0 +1,10 @@
+group,protocol,model,run_dir,acc,f1,auc
+transformers,supervised,swin_tiny_patch4_window7_224,outputs/runs/transformers/swin_tiny_patch4_window7_224_s42,0.9854014598540146,0.983957219251337,0.9984707287933094
+transformers,supervised,vit_base_patch16_224,outputs/runs/transformers/vit_base_patch16_224_s42,0.9708029197080292,0.9680851063829787,0.9966547192353643
+cnns,supervised,densenet121,outputs/runs/cnns/densenet121_s42,0.9829683698296837,0.9814323607427056,0.9991636798088411
+cnns,supervised,efficientnet_b0,outputs/runs/cnns/efficientnet_b0_s42,0.9829683698296837,0.9814323607427056,0.9988649940262844
+cnns,supervised,resnet50,outputs/runs/cnns/resnet50_s42,0.9781021897810219,0.976,0.9972043010752688
+simclr,simclr_linear,densenet121,outputs/runs/simclr/densenet121_s42/linear,0.9805352798053528,0.978494623655914,0.9990681003584229
+simclr,simclr_finetune,densenet121,outputs/runs/simclr/densenet121_s42/finetune,0.9878345498783455,0.9866666666666667,0.9992831541218637
+simclr,simclr_linear,swin_tiny_patch4_window7_224,outputs/runs/simclr/swin_tiny_patch4_window7_224_s42/linear,0.9659367396593674,0.9627659574468085,0.9973954599761051
+simclr,simclr_finetune,swin_tiny_patch4_window7_224,outputs/runs/simclr/swin_tiny_patch4_window7_224_s42/finetune,0.9805352798053528,0.9783783783783784,0.9990919952210274
