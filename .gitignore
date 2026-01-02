@@ -59,6 +59,12 @@ outputs/splits/
 !outputs/comparisons/*.csv
 
 # ======================
+# Allow plots from all model runs
+# ======================
+!outputs/runs/**/plots/
+!outputs/runs/**/plots/*.png
+
+# ======================
 # Misc
 # ======================
 .env
