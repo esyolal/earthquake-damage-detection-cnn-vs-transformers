@@ -611,6 +611,17 @@ The project demonstrates:
 
 ---
 
+## Presentation
+
+Project presentation materials are available in the `presentation/` directory:
+
+- **PDF:** `presentation/2023-Turkiye-Depremleri-Sonrasi-Bina-Hasar-Tespiti.pdf`
+- **PowerPoint:** `presentation/2023-Turkiye-Depremleri-Sonrasi-Bina-Hasar-Tespiti.pptx`
+
+These files contain the project overview, methodology, results, and conclusions.
+
+---
+
 ## Author Information
 
 **Name:** Emre Sebati Yolal  
