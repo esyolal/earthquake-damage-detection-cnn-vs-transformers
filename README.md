@@ -74,6 +74,10 @@ earthquake-damage-detection/
 │   ├── damaged/                  # 1237 damaged building images
 │   └── undamaged/                 # 1498 undamaged building images
 │
+├── presentation/                  # Project presentation files
+│   ├── 2023-Turkiye-Depremleri-Sonrasi-Bina-Hasar-Tespiti.pdf
+│   └── 2023-Turkiye-Depremleri-Sonrasi-Bina-Hasar-Tespiti.pptx
+│
 ├── outputs/                       # All experiment outputs
 │   ├── splits/                    # Train/Val/Test CSV splits
 │   ├── runs/                      # Model training results
