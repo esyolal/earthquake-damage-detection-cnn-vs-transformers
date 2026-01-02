@@ -274,7 +274,12 @@ This step scans the dataset directory, creates a dataset manifest, and generates
 
 **Command:**
 ```bash
-python -m src.data.splits --seed 42
+python src/main.py --seed 42
+```
+
+**Alternative (if using as module):**
+```bash
+python -m src.main --seed 42
 ```
 
 **Generated files:**
@@ -561,7 +566,7 @@ To reproduce the reported results:
 1. **Use the same dataset structure** (`data/damaged`, `data/undamaged`)
 2. **Generate splits with seed 42**:
    ```bash
-   python -m src.data.splits --seed 42
+   python src/main.py --seed 42
    ```
 3. **Run supervised training before SimCLR experiments**
 4. **Use the same random seed (42)** for all experiments
