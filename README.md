@@ -134,6 +134,9 @@ earthquake-damage-detection/
 
 ## Dataset
 
+The dataset used in this project is from Kaggle:
+- **Dataset:** [Türkiye Earthquake 2023 - Damaged Buildings](https://www.kaggle.com/datasets/turkertuncer/turkiye-earthquake-2023-damaged-buildings)
+
 Images are organized under:
 - `data/damaged` (**1237** images)
 - `data/undamaged` (**1498** images)
