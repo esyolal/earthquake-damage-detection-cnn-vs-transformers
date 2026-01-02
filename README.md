@@ -29,7 +29,7 @@ Additionally, the best CNN and best Transformer are tested with a **SimCLR self-
 
 ### Requirements
 
-- Python 3.8+
+- Python 3.11.9
 - CUDA-capable GPU (recommended)
 
 ### Setup
